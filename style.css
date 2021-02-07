@@ -1,0 +1,48 @@
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+}
+body {
+    background-color: rgb(71, 71, 71);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 3vh;
+    max-width: 500px;
+    min-height: 500px;
+    background-color: white;
+}
+#btnarea {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.buttons {
+    background-color: white;
+    color: black;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.buttons:hover {
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+.cell {
+    border: 1px solid #000;
+}
+
+
+
