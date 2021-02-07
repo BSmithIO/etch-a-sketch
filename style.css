@@ -18,7 +18,7 @@ body {
     min-height: 500px;
     background-color: white;
 }
-#btnarea {
+#btnArea {
     display: flex;
     justify-content: center;
 }
